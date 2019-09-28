@@ -6,7 +6,7 @@ require 'zbase32/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'zbase32'
-  spec.version       = Zbase32::VERSION
+  spec.version       = ZBase32::VERSION
   spec.authors       = ['Tom de Grunt']
   spec.email         = ['tom@degrunt.nl']
 
