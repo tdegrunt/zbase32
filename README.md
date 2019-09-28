@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+hash = Zbase32.encode('test')
+result = Zbase32.decode(hash)
+```
 
 ## Development
 
