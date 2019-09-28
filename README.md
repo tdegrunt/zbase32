@@ -22,8 +22,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-hash = Zbase32.encode('test')
-result = Zbase32.decode(hash)
+hash = ZBase32.encode('test')
+result = ZBase32.decode(hash)
 ```
 
 ## Development
