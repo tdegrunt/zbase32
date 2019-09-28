@@ -1,4 +1,6 @@
-require "zbase32/version"
+# frozen_string_literal: true
+
+require 'zbase32/version'
 
 module ZBase32
   MNET32 = 'ybndrfg8ejkmcpqxot1uwisza345h769'
