@@ -2,12 +2,16 @@
 
 require 'test_helper'
 
-class Zbase32Test < Minitest::Test
+class ZBase32Test < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Zbase32::VERSION
+    refute_nil ::ZBase32::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_it_encodes
+    assert_equal 'b4gkh5w', ::ZBase32.encode('test')
+  end
+
+  def test_it_decodes
+    assert_equal 'test', ::ZBase32.decode('b4gkh5w')
   end
 end
